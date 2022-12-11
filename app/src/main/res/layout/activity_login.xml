@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#253334"
+        tools:context="com.example.WS_KTbo3_6_Mikhailov_Igor.Login"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="59dp">
+
+        <EditText
+            android:id="@+id/sign_in_email"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BEC2C2"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:paddingBottom="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="#BEC2C2"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="118dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineHeight="30dp"
+            android:text="Sign in"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.261" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_sign_in_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_background"
+            android:lineHeight="30dp"
+            android:text="Sign in"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.67" />
+
+        <EditText
+            android:id="@+id/sign_in_password"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BEC2C2"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:paddingBottom="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="#BEC2C2"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <TextView
+            android:id="@+id/login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineHeight="24dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.751" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_background"
+            android:lineHeight="30dp"
+            android:text="Профиль"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.868" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="412dp"
+        android:layout_height="232dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-40dp"
+        android:background="@drawable/login_list"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+</FrameLayout>

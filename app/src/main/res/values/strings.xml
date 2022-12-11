@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WS_train_2</string>
+    <string name="text_on_boarding">Наслаждайся отборочными.\nБудь внимателен.\nДелай хорошо.</string>
+    <string name="registration_on_board">Еще нет аккаунта? <b>Зарегистрируйтесь</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
